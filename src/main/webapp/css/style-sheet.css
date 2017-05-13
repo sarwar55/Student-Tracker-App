@@ -1,0 +1,17 @@
+.table {
+	border-radius: 5px;
+	width: 50%;
+	margin: 0px auto;
+	float: none;
+}
+
+.table th {
+	text-align: center;
+	border-bottom: 1px solid gray;
+	background: none repeat scroll 0 0 #0775d3;
+	padding: 10px;
+	color: #FFFFFF;
+}
+
+
+

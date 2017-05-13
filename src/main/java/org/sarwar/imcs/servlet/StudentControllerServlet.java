@@ -141,7 +141,6 @@ public class StudentControllerServlet extends HttpServlet {
 		List<Student> students = studentUtil.getStudents();
 		request.setAttribute("studentList", students);
 		request.setAttribute("viewBackButton", "false");
-		System.out.println("tttttt");
 		request.getRequestDispatcher("/list-students.jsp").forward(request, response);
 	}
 
